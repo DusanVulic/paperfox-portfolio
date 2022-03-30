@@ -1,0 +1,19 @@
+.project-section {
+    height: auto;
+    overflow: hidden;
+}
+
+.project-section h3 {
+    color: blue;
+}
+
+.project-icon {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(9, 133, 155);
+}
+
+.project-icon:hover {
+    color: rgb(255, 174, 0);
+}

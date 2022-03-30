@@ -1,0 +1,30 @@
+.back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+}
+
+.scroll-btn {
+    cursor: pointer;
+    color: white;
+    background: rgb(9, 133, 155);
+    border: transparent;
+    border-radius: 0.25rem;
+    letter-spacing: 1px;
+    padding: 0.275rem 0.55rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out all;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.scroll-btn:hover {
+    background: rgb(255, 174, 0);
+    color: #333;
+}
+
+@media screen and (min-width: 768px) {
+    .back-to-top {
+        right: 75px;
+    }
+}

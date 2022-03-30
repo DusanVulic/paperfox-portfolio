@@ -1,0 +1,102 @@
+    .single-project {
+        width: 90%;
+        margin: 1rem auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .single-project h3 {
+        color: #333;
+    }
+    
+    .info p {
+        margin-bottom: 1rem;
+        max-width: 400px;
+    }
+    
+    .tech {
+        margin-top: 0.25rem;
+        color: rgb(9, 133, 155);
+    }
+    
+    .tech-icons {
+        width: 90%;
+        max-width: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .tech-icon svg {
+        font-size: 1.5rem;
+        color: rgb(9, 133, 155);
+    }
+    
+    .project-btn {
+        cursor: pointer;
+        color: white;
+        background: rgb(9, 133, 155);
+        border: transparent;
+        border-radius: 0.25rem;
+        letter-spacing: 1px;
+        padding: 0.375rem 0.75rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease-in-out all;
+        text-transform: capitalize;
+        display: inline-block;
+    }
+    
+    .project-btn:hover {
+        cursor: pointer;
+        color: rgb(9, 133, 155);
+        background: white;
+        border: 1px solid rgb(9, 133, 155);
+        border-radius: 0.25rem;
+        letter-spacing: 1px;
+        padding: 0.375rem 0.75rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease-in-out all;
+        text-transform: capitalize;
+        display: inline-block;
+    }
+    
+    .project-btn a {
+        color: white;
+    }
+    
+    .project-img-container {
+        width: 90%;
+        max-width: 500px;
+        display: block;
+        margin: 1rem auto;
+    }
+    
+    .project-img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    @media screen and (min-width: 768px) {
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .single-project {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .info {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }

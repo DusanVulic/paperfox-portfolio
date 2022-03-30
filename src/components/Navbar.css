@@ -1,0 +1,150 @@
+nav {
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h3 {
+    color: blueviolet;
+    margin-left: 20px;
+}
+
+.logo {
+    display: block;
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    border-radius: 1.25px;
+    margin: 5px;
+    transition: all 0.3s linear;
+    /* background: blueviolet; */
+    background: rgb(9, 133, 155);
+    display: block;
+    cursor: pointer;
+}
+
+
+/* menu hamburger to x button */
+
+.menu-toggle.is-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.is-active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.menu-toggle.is-active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+
+/* end of  menu hamburger to x button */
+
+
+/* LINKS CONTAINER*/
+
+.links-container {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.show-container {
+    height: 10rem;
+}
+
+
+/* END OF LINKS CONTAINER*/
+
+.links a {
+    font-size: 20px;
+    margin-left: 25px;
+    color: rgb(9, 133, 155);
+}
+
+.links li {
+    margin-bottom: 1.25rem;
+}
+
+.links a:hover {
+    color: #333;
+}
+
+
+/* social icons */
+
+.social-icons {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .logo {
+        display: block;
+        width: 75px;
+        height: 75px;
+    }
+    .nav-center {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .nav-header {
+        padding: 0;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .links-container {
+        height: auto !important;
+    }
+    .links {
+        display: flex;
+    }
+    .links li {
+        margin-bottom: 0;
+    }
+    .links a {
+        padding: 0;
+        margin: 0 0.5rem;
+    }
+    .links a:hover {
+        padding: 0;
+        background: transparent;
+    }
+    .links li:hover {
+        border-bottom: 1px solid #333;
+    }
+    .social-icons {
+        display: flex;
+    }
+    .social-icons a {
+        margin: 0 0.5rem;
+        font-size: 1.25rem;
+        color: #333;
+        transition: all 0.3s linear;
+    }
+    .social-icons a:hover {
+        color: rgb(255, 174, 0);
+    }
+}

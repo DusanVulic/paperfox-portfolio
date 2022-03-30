@@ -1,0 +1,44 @@
+section {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 2.25rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.main-image {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+p {
+    font-size: 1.15rem;
+}
+
+.tech-title {
+    margin: 2rem;
+}
+
+.tech-icon {
+    color: rgb(9, 133, 155);
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .about-section {
+        height: 100vh;
+    }
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
