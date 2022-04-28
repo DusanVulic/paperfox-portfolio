@@ -38,4 +38,14 @@ export const projects = [{
         tech: " REACT JS + Firebase Authentication",
         icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > ],
     },
+
+    {
+        id: 5,
+        url: "https://paperfoxphonebook.netlify.app/signup",
+        title: "Phone Book",
+        description: "Phone Book project with firebase authentication, firebase data storage and MUI components",
+        image: "https://res.cloudinary.com/dfnkvrfjt/image/upload/v1651139954/portfolio%20project%20images/phoneBook_z3yptr.jpg",
+        tech: " REACT JS + Firebase Authentication + MUI",
+        icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > ],
+    },
 ];
