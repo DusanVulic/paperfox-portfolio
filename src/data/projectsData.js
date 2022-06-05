@@ -51,8 +51,8 @@ export const projects = [{
     {
         id: 6,
         url: "https://reactgymster.web.app/",
-        title: "Phone Book",
-        description: "Phone Book project with firebase authentication, firebase data storage and MUI components",
+        title: "Gymster",
+        description: "Team workout app project with firebase authentication, firebase data storage",
         image: "https://res.cloudinary.com/dfnkvrfjt/image/upload/v1654348964/portfolio%20project%20images/gymster_tw4g7c.jpg",
         tech: " REACT JS + Firebase Authentication + MUI",
         icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > ],
