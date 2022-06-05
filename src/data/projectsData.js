@@ -1,5 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 
+import { SiFirebase } from "react-icons/si";
+
 import { IoLogoJavascript } from "react-icons/io";
 
 export const projects = [{
@@ -36,7 +38,7 @@ export const projects = [{
         description: "Money tracker project with firebase authentication",
         image: "https://res.cloudinary.com/dfnkvrfjt/image/upload/v1644157179/portfolio%20project%20images/money_tracker_nub5fe.jpg",
         tech: " REACT JS + Firebase Authentication",
-        icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > ],
+        icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > , < SiFirebase / > ],
     },
 
     {
@@ -46,15 +48,15 @@ export const projects = [{
         description: "Phone Book project with firebase authentication, firebase data storage and MUI components",
         image: "https://res.cloudinary.com/dfnkvrfjt/image/upload/v1651139954/portfolio%20project%20images/phoneBook_z3yptr.jpg",
         tech: " REACT JS + Firebase Authentication + MUI",
-        icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > ],
+        icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > , < SiFirebase / > ],
     },
     {
         id: 6,
         url: "https://reactgymster.web.app/",
         title: "Gymster",
-        description: "Team workout app project with firebase authentication, firebase data storage",
+        description: "Team workout react app project with firebase authentication, firebase data storage",
         image: "https://res.cloudinary.com/dfnkvrfjt/image/upload/v1654348964/portfolio%20project%20images/gymster_tw4g7c.jpg",
-        tech: " REACT JS + Firebase Authentication + MUI",
-        icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > ],
+        tech: " REACT JS + Firebase Authentication + Firebase Database ",
+        icons: [ < FaHtml5 / > , < FaCss3Alt / > , < FaReact / > , < SiFirebase / > ],
     },
 ];
