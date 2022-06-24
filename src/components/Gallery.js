@@ -142,6 +142,12 @@ const Gallery = () => {
             alt="newsletter"
           />
         </a>
+        <a href="https://res.cloudinary.com/dfnkvrfjt/image/upload/v1656061094/vectors/18_oggwfu.jpg">
+          <img
+            src="https://res.cloudinary.com/dfnkvrfjt/image/upload/v1656061098/vectors/thumb_18_byou09.jpg"
+            alt="newsletter"
+          />
+        </a>
       </div>
       ;
     </SRLWrapper>
